@@ -33,3 +33,11 @@ while True:
 else:
     print("ya paso de 10")
 
+# --
+salir = False
+while not salir:
+    respuesta = input("Salir s,n? > ")
+    if respuesta == "s":
+        salir = True
+
+#--
