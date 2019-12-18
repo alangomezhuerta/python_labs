@@ -1,0 +1,21 @@
+|	COMMAND OR INSTRUCTION	|	NOTES	|
+|		|		|
+|	r = 5 == 3 # r is False r = 5 != 3 # r is True r = 5 < 3 # r is False r = 5 > 3 # r is True r = 5 >= 3 # r is True	|		|
+|	IF THEN ELSE	|		|
+|	if numero < 0:  print “Negativo” elif numero > 0:  print “Positivo” else:  print “Cero”	|		|
+|		|		|
+|	IN A SINGLE LINE ( it needs always the else statement):	|		|
+|	var = "par" if (num % 2 == 0) else "impar"	|		|
+|	WHILE	|		|
+|	edad = 0 while edad < 18:  edad = edad + 1  print “Felicidades, tienes “ + str(edad)	|		|
+|	while True:  entrada = raw_input(“> “)  if entrada == “adios”:   break  else:   print entrada	|		|
+|	salir = False while not salir:  entrada = raw_input()  if entrada == “adios”:   salir = True  else:   print entrada	|		|
+|	FOR IN	|		|
+|	secuencia = [“uno”, “dos”, “tres”] for elemento in secuencia:  print elemento	|		|
+|	for i in range(0,20):  print i	|		|
+|	for x in range(5):    # some code ..     If x == 2:       break Else:    #code to be executed only if break statement is not reached	|		|
+|	for x in range(5):    # some code ..     If x == 2:       continue    #code to be executed only if continue statement is not reached	|		|
+|	L = [x for x in range(10)]	|	This is a quick way to return a list; similar to  L = [] For x in range(10):     L.append(x)  This is very useful if you want to create a List as a result of an operation such as L = [ x**2 for x in range(10)] 	|
+|	L = [(x,y) for x in [1,2,3] for y in [3,1,4] if x != y]	|		|
+|				|
+
