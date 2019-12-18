@@ -32,3 +32,4 @@ while True:
     if a == 10: break
 else:
     print("ya paso de 10")
+
