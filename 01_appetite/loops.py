@@ -20,3 +20,12 @@ for i in mylist[:]:
    print(i)
    mylist.pop()
    print(mylist)
+
+# --
+# this is very weird for:
+L = [ x for x in range(10)]
+print(L)
+
+# --
+L = [ x**2 for x in range(10) ]
+print(L)

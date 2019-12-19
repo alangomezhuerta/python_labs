@@ -1,0 +1,6 @@
+This is just text
+this is a file for tests
+ok
+
+---
+Thanks
